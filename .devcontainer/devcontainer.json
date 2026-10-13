@@ -9,7 +9,11 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": []
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
     }
-  }
+  },
+  "postCreateCommand": ".devcontainer/postCreate.sh"
 }   
